@@ -59,9 +59,10 @@ public class inGame implements Screen {
     private int over=0;
     private Array<Body> bodies = new Array<Body>();
     public inGame(MyGdxGame game){
-
-        this.tank1 = new Tank(1,1,1);
-        this.tank2 = new Tank(1,1,2);
+        HealthGenerator h = HealthGenerator.getInstance();
+        float h1 = h.getMaxHealth();
+        this.tank1 = new Tank(h1,1,1);
+        this.tank2 = new Tank(h1,1,2);
         this.game=game;
         batch = new SpriteBatch();
         terrain = new Sprite(new Texture("canyon.png"));
