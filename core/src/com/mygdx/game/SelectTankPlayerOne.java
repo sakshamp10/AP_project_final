@@ -51,7 +51,7 @@ public class SelectTankPlayerOne implements Screen {
         selectMark = new Sprite(new Texture("SelectMark.png"));
 
         chooseTank = new Sprite(new Texture("choose.png"));
-        playButton = new Sprite(new Texture("play.png"));
+        playButton = new Sprite(new Texture("playbutton.png"));
 
         camera = new OrthographicCamera(viewWidth, viewHeight);
         camera.position.set( viewWidth/2,viewHeight/2,0);

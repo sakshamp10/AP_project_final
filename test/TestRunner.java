@@ -1,6 +1,7 @@
-package com.mygdx.game;// package com.badlogic.drop;
+package com.saksham.game;// package com.badlogic.drop;
 
 /* Junit test runner class */
+import com.saksham.game.MyTest;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;

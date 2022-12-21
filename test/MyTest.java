@@ -1,5 +1,6 @@
-package com.mygdx.game;
+package com.saksham.game;
 
+import com.mygdx.game.HealthGenerator;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 public class MyTest {
